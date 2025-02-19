@@ -1,4 +1,23 @@
 #!/usr/bin/make -f
 
+#export DH_VERBOSE=1
+
+# out of tree build folder for schematic symbols
+DEB_BUILD_DIR=debian/build
+# default install folder
+INSTDIR=$(CURDIR)/debian/tmp
+
+DEB_SYMBOLS_CMAKE_OPTS := \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	$(NULL)
+
 %:
 	dh $@
+
+override_dh_auto_configure:
+	# configuring KiCad symbols
+	dh_auto_configure --sourcedirectory=$(CURDIR) --builddirectory=$(DEB_BUILD_DIR)/symbols -- $(DEB_SYMBOLS_CMAKE_OPTS)
+
+override_dh_auto_install:
+	# install KiCad symbols
+	dh_auto_install --destdir=$(INSTDIR) --sourcedirectory=$(CURDIR) --builddirectory=$(DEB_BUILD_DIR)/symbols
