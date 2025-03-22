@@ -1,3 +1,13 @@
+kicad-symbols (9.0.0-1) unstable; urgency=medium
+
+  * [76033bc] New upstream version 9.0.0
+  * [f1c68e3] d/control: Bump Bre/Sug/Rec versions to >=/<< 9.0.0~
+  * [daa1251] d/control: Increase Standards-Version to 4.7.1
+    + No further changes needed.
+  * [f8503a1] d/copyright: Update year data
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 23 Feb 2025 14:10:27 +0200
+
 kicad-symbols (8.0.8-1) unstable; urgency=medium
 
   * [fc4d13d] New upstream version 8.0.8
