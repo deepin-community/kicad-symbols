@@ -1,3 +1,17 @@
+kicad-symbols (9.0.2-1) unstable; urgency=medium
+
+  * [211635f] New upstream version 9.0.2
+  * [ec8f583] d/control: Increase Standards-Version to 4.7.2
+    + No further changes needed.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 10 May 2025 11:25:28 +0200
+
+kicad-symbols (9.0.1-1) unstable; urgency=medium
+
+  * [aa2f727] New upstream version 9.0.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 04 Apr 2025 16:15:27 +0200
+
 kicad-symbols (9.0.0-1) unstable; urgency=medium
 
   * [76033bc] New upstream version 9.0.0

@@ -23102,7 +23102,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "IRF7309IPBF"
+	(symbol "IRF7309PBF"
 		(pin_names
 			(hide yes)
 		)
@@ -23118,7 +23118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRF7309IPBF"
+		(property "Value" "IRF7309PBF"
 			(at 5.08 0 0)
 			(effects
 				(font
@@ -23138,7 +23138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf7309ipbf.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irf7309pbf.pdf?fileId=5546d462533600a4015355f224631b14"
 			(at 5.08 -3.81 0)
 			(effects
 				(font
@@ -23148,7 +23148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3A Id, 30V Vds, Dual HEXFET N- and P-Channel MOSFET, SO-8"
+		(property "Description" "4A/-3A Id, 30V/-30 Vdss, Dual N and P-Channel MOSFET, HEXFET, 0.050 / 0.10 ohms Rds(on), SOIC-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23157,7 +23157,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Dual HEXFET N-Channel P-Channel MOSFET"
+		(property "ki_keywords" "N-Channel"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23166,7 +23166,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+		(property "ki_fp_filters" "*SOIC*3.9x4.9mm*P1.27mm*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -23175,7 +23175,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "IRF7309IPBF_0_1"
+		(symbol "IRF7309PBF_0_1"
 			(polyline
 				(pts
 					(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -23306,7 +23306,7 @@
 				)
 			)
 		)
-		(symbol "IRF7309IPBF_1_1"
+		(symbol "IRF7309PBF_1_1"
 			(polyline
 				(pts
 					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
@@ -23346,7 +23346,7 @@
 			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "G"
+				(name "G1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23364,7 +23364,7 @@
 			(pin passive line
 				(at 2.54 5.08 270)
 				(length 2.54)
-				(name "D"
+				(name "D1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23383,7 +23383,7 @@
 				(at 2.54 5.08 270)
 				(length 2.54)
 				(hide yes)
-				(name "D"
+				(name "D1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23401,7 +23401,7 @@
 			(pin passive line
 				(at 2.54 -5.08 90)
 				(length 2.54)
-				(name "S"
+				(name "S1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23417,7 +23417,7 @@
 				)
 			)
 		)
-		(symbol "IRF7309IPBF_2_1"
+		(symbol "IRF7309PBF_2_1"
 			(polyline
 				(pts
 					(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
@@ -23457,7 +23457,7 @@
 			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "G"
+				(name "G2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23475,7 +23475,7 @@
 			(pin passive line
 				(at 2.54 5.08 270)
 				(length 2.54)
-				(name "D"
+				(name "D2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23494,7 +23494,7 @@
 				(at 2.54 5.08 270)
 				(length 2.54)
 				(hide yes)
-				(name "D"
+				(name "D2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23512,7 +23512,7 @@
 			(pin passive line
 				(at 2.54 -5.08 90)
 				(length 2.54)
-				(name "1"
+				(name "S2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -37779,6 +37779,342 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SQJQ131EL"
+		(pin_names
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SQJQ131EL"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK88"
+			(at 5.08 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/77936/sqjq131el.pdf"
+			(at 5.08 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-280A Id, 30V Vds, P-Channel MOSFET, 1.4mOhm Ron, 82nC Qgd, -55 to 175 °C, LFPAK88"
+			(at 2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Power MOSFET P-MOS Automotive AEC-Q101 PowerPAK 8x8L"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LFPAK88*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SQJQ131EL_0_1"
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.651 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SQJQ131EL_1_1"
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(hide yes)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -60361,7 +60697,7 @@
 		)
 	)
 	(symbol "FDS4559"
-		(extends "IRF7309IPBF")
+		(extends "IRF7309PBF")
 		(property "Reference" "Q"
 			(at 5.08 1.905 0)
 			(effects
@@ -60430,7 +60766,7 @@
 		)
 	)
 	(symbol "FDS4897AC"
-		(extends "IRF7309IPBF")
+		(extends "IRF7309PBF")
 		(property "Reference" "Q"
 			(at 5.08 1.905 0)
 			(effects
@@ -60499,7 +60835,7 @@
 		)
 	)
 	(symbol "FDS4897C"
-		(extends "IRF7309IPBF")
+		(extends "IRF7309PBF")
 		(property "Reference" "Q"
 			(at 5.08 1.905 0)
 			(effects
@@ -60913,7 +61249,7 @@
 		)
 	)
 	(symbol "FDS8960C"
-		(extends "IRF7309IPBF")
+		(extends "IRF7309PBF")
 		(property "Reference" "Q"
 			(at 5.08 1.905 0)
 			(effects
@@ -61120,7 +61456,7 @@
 		)
 	)
 	(symbol "FDS9934C"
-		(extends "IRF7309IPBF")
+		(extends "IRF7309PBF")
 		(property "Reference" "Q"
 			(at 5.08 1.905 0)
 			(effects
@@ -65604,8 +65940,77 @@
 			)
 		)
 	)
+	(symbol "IRF7311PBF"
+		(extends "FDS6890A")
+		(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF7311PBF"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 5.08 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irf7311pbf.pdf?fileId=5546d462533600a4015355f551ed1b22"
+			(at 5.08 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.6A Id, 20V Vdss, Dual N-Channel MOSFET, HEXFET, 0.029 ohms Rds(on), SOIC-8"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "fully-avalanche-rated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*SOIC*3.9x4.9mm*P1.27mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "IRF7343PBF"
-		(extends "IRF7309IPBF")
+		(extends "IRF7309PBF")
 		(property "Reference" "Q"
 			(at 5.08 1.905 0)
 			(effects
@@ -71928,7 +72333,7 @@
 		)
 	)
 	(symbol "Si4532DY"
-		(extends "IRF7309IPBF")
+		(extends "IRF7309PBF")
 		(property "Reference" "Q"
 			(at 5.08 1.905 0)
 			(effects
@@ -71997,7 +72402,7 @@
 		)
 	)
 	(symbol "Si4542DY"
-		(extends "IRF7309IPBF")
+		(extends "IRF7309PBF")
 		(property "Reference" "Q"
 			(at 5.08 1.905 0)
 			(effects
@@ -74264,6 +74669,75 @@
 			)
 		)
 		(property "ki_fp_filters" "SOT?23*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "IRF7341PBF"
+		(extends "IRF7311PBF")
+		(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF7341PBF"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 5.08 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irf7341pbf.pdf?fileId=5546d462533600a4015355f64f031b63"
+			(at 5.08 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7A Id, 55V Vdss, Dual N-Channel MOSFET, HEXFET, 0.050 ohms Rds(on), SOIC-8"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "fully-avalanche-rated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "*SOIC*3.9x4.9mm*P1.27mm*"
 			(at 0 0 0)
 			(effects
 				(font
