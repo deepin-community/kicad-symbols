@@ -1,3 +1,56 @@
+kicad-symbols (10.0.0-1) unstable; urgency=medium
+
+  * [aa6e422] New upstream version 10.0.0
+  * [24865d2] d/control: Bump Bre/Sug/Rec versions to >=/<< 10.0.0~
+  * [d799529] d/control: Remove Rules-Requires-Root
+    + We don't build any binaries so would need to set this to key to
+      Rules-Requires-Root: no
+      and that's now the default.
+  * [a312824] d/control: Increase Standards-Version to 4.7.4
+    + No further changes needed.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 06 Apr 2026 16:29:27 +0200
+
+kicad-symbols (9.0.8-1) unstable; urgency=medium
+
+  * [24f1d67] New upstream version 9.0.8
+  * [bcb169b] d/control: Drop field Priority: optional
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 16 Mar 2026 19:38:45 +0200
+
+kicad-symbols (9.0.7-1) unstable; urgency=medium
+
+  * [3667171] New upstream version 9.0.7
+  * [d022e7b] d/control: Increase Standards-Version to 4.7.3
+    + No further changes needed.
+  * [f4e79d9] d/copyright: Update year data
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 03 Jan 2026 09:20:52 +0200
+
+kicad-symbols (9.0.6-1) unstable; urgency=medium
+
+  * [e7ae340] New upstream version 9.0.6
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 03 Nov 2025 18:50:22 +0200
+
+kicad-symbols (9.0.5-1) unstable; urgency=medium
+
+  * [faf7157] New upstream version 9.0.5
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 03 Oct 2025 12:32:59 +0200
+
+kicad-symbols (9.0.4-1) unstable; urgency=medium
+
+  * [7de3eea] New upstream version 9.0.4
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 24 Aug 2025 08:30:34 +0200
+
+kicad-symbols (9.0.3-1) unstable; urgency=medium
+
+  * [4bf316d] New upstream version 9.0.3
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 16 Jul 2025 10:17:43 +0200
+
 kicad-symbols (9.0.2-1) unstable; urgency=medium
 
   * [211635f] New upstream version 9.0.2
